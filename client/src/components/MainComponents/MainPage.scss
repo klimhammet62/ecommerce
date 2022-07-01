@@ -1,0 +1,24 @@
+.header {
+    display: grid;
+    grid-template-columns: 85% 15%;
+}
+@media (max-width: 800px) {
+    .side__panel {
+        display: none;
+    }
+    .logo__name {
+        font-style: calc($font-size - 20px);
+    }
+}
+@media (max-width: 1200px) {
+    .header {
+    display: grid;
+    grid-template-columns: 92%;
+}
+    .side__panel {
+        display: none;
+    }
+    .logo__name {
+        font-style: calc($font-size - 20px);
+    }
+}

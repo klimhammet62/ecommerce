@@ -1,0 +1,829 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. ",
+            "price": 109.95,
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category": "teenagers clothes",
+            "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+            "alt": "Lorem, ipsum dolor sit amet consectet",
+            "rating": {
+                "rate": 3.0,
+                "count": 120
+            }
+        },
+        {
+            "id": 2,
+            "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. ",
+            "price": 109.95,
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category": "teenagers clothes",
+            "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+            "alt": "Lorem, ipsum dolor sit amet consectet",
+            "rating": {
+                "rate": 4.0,
+                "count": 120
+            }
+        },
+        {
+            "id": 3,
+            "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. ",
+            "price": 109.95,
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category": "teenagers clothes",
+            "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+            "alt": "Lorem, ipsum dolor sit amet consectet",
+            "rating": {
+                "rate": 4.0,
+                "count": 120
+            }
+        },
+        {
+            "id": 4,
+            "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. ",
+            "price": 109.95,
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category": "teenagers clothes",
+            "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+            "alt": "Lorem, ipsum dolor sit amet consectet",
+            "rating": {
+                "rate": 4.0,
+                "count": 120
+            }
+        },
+        {
+            "id": 5,
+            "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. ",
+            "price": 109.95,
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category": "teenagers clothes",
+            "image": "https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+            "alt": "Lorem, ipsum dolor sit amet consectet",
+            "rating": {
+                "rate": 2.0,
+                "count": 120
+            }
+        },
+        {
+            "id": 6,
+            "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. ",
+            "price": 109.95,
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category": "teenagers clothes",
+            "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1099&q=80",
+            "alt": "Lorem, ipsum dolor sit amet consectet",
+            "rating": {
+                "rate": 2.5,
+                "count": 120
+            }
+        },
+        {
+            "id": 7,
+            "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. ",
+            "price": 109.95,
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category": "teenagers clothes",
+            "image": "https://images.unsplash.com/photo-1627384113743-6bd5a479fffd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+            "alt": "Lorem, ipsum dolor sit amet consectet",
+            "rating": {
+                "rate": 5.0,
+                "count": 120
+            }
+        },
+        {
+            "id": 8,
+            "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. ",
+            "price": 109.95,
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category": "teenagers clothes",
+            "image": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+            "alt": "Lorem, ipsum dolor sit amet consectet",
+            "rating": {
+                "rate": 5.0,
+                "count": 120
+            }
+        },
+        {
+            "id": 9,
+            "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. ",
+            "price": 109.95,
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category": "teenagers clothes",
+            "image": "https://images.unsplash.com/photo-1491553895911-0055eca6402d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
+            "alt": "Lorem, ipsum dolor sit amet consectet",
+            "rating": {
+                "rate": 5.0,
+                "count": 120
+            }
+        },
+        {
+            "id": 10,
+            "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. ",
+            "price": 109.95,
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category": "men's clothing",
+            "image": "https://images.unsplash.com/photo-1525904097878-94fb15835963?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+            "alt": "Lorem, ipsum dolor sit amet consectet",
+            "rating": {
+                "rate": 3.9,
+                "count": 120
+            }
+        },
+        {
+            "id": 11,
+            "title": "Smth new in this sht db",
+            "price": 109.95,
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category": "men's clothing",
+            "image": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80",
+            "alt": "Lorem, ipsum dolor sit amet consectet",
+            "rating": {
+                "rate": 3.9,
+                "count": 120
+            }
+        },
+        {
+            "id": 12,
+            "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. ",
+            "price": 109.95,
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category": "woman's clothing",
+            "image": "https://images.unsplash.com/photo-1585386959984-a4155224a1ad?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+            "alt": "Lorem, ipsum dolor sit amet consectet",
+            "rating": {
+                "rate": 3.9,
+                "count": 120
+            }
+        },
+        {
+            "id": 13,
+            "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. ",
+            "price": 109.95,
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category": "woman's clothing",
+            "image": "https://images.unsplash.com/photo-1541643600914-78b084683601?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=404&q=80",
+            "alt": "Lorem, ipsum dolor sit amet consectet",
+            "rating": {
+                "rate": 3.9,
+                "count": 120
+            }
+        },
+        {
+            "id": 14,
+            "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. ",
+            "price": 109.95,
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category": "woman's clothing",
+            "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+            "alt": "Lorem, ipsum dolor sit amet consectet",
+            "rating": {
+                "rate": 3.9,
+                "count": 120
+            }
+        },
+        {
+            "id": 15,
+            "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. ",
+            "price": 109.95,
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category": "woman's clothing",
+            "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+            "alt": "Lorem, ipsum dolor sit amet consectet",
+            "rating": {
+                "rate": 3.9,
+                "count": 120
+            }
+        },
+        {
+            "id": 16,
+            "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. ",
+            "price": 109.95,
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category": "woman's clothing",
+            "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+            "alt": "Lorem, ipsum dolor sit amet consectet",
+            "rating": {
+                "rate": 3.9,
+                "count": 120
+            }
+        },
+        {
+            "id": 17,
+            "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. ",
+            "price": 109.95,
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category": "woman's clothing",
+            "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+            "alt": "Lorem, ipsum dolor sit amet consectet",
+            "rating": {
+                "rate": 3.9,
+                "count": 120
+            }
+        },
+        {
+            "id": 18,
+            "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. ",
+            "price": 109.95,
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category": "woman's clothing",
+            "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+            "alt": "Lorem, ipsum dolor sit amet consectet",
+            "rating": {
+                "rate": 3.9,
+                "count": 120
+            }
+        },
+        {
+            "id": 19,
+            "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. ",
+            "price": 109.95,
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category": "woman's clothing",
+            "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+            "alt": "Lorem, ipsum dolor sit amet consectet",
+            "rating": {
+                "rate": 3.9,
+                "count": 120
+            }
+        },
+        {
+            "id": 20,
+            "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. ",
+            "price": 109.95,
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category": "woman's clothing",
+            "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+            "alt": "Lorem, ipsum dolor sit amet consectet",
+            "rating": {
+                "rate": 3.9,
+                "count": 120
+            }
+        },
+        {
+            "id": 21,
+            "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. ",
+            "price": 109.95,
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category": "woman's clothing",
+            "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+            "alt": "Lorem, ipsum dolor sit amet consectet",
+            "rating": {
+                "rate": 3.9,
+                "count": 120
+            }
+        },
+        {
+            "id": 22,
+            "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. ",
+            "price": 109.95,
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category": "woman's clothing",
+            "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+            "alt": "Lorem, ipsum dolor sit amet consectet",
+            "rating": {
+                "rate": 3.9,
+                "count": 120
+            }
+        },
+        {
+            "id": 23,
+            "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. ",
+            "price": 109.95,
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category": "woman's clothing",
+            "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+            "alt": "Lorem, ipsum dolor sit amet consectet",
+            "rating": {
+                "rate": 3.9,
+                "count": 120
+            }
+        },
+        {
+            "id": 24,
+            "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. ",
+            "price": 109.95,
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category": "men's clothing",
+            "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+            "alt": "Lorem, ipsum dolor sit amet consectet",
+            "rating": {
+                "rate": 3.9,
+                "count": 120
+            }
+        },
+        {
+            "id": 25,
+            "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. ",
+            "price": 109.95,
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category": "men's clothing",
+            "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+            "alt": "Lorem, ipsum dolor sit amet consectet",
+            "rating": {
+                "rate": 3.9,
+                "count": 120
+            }
+        },
+        {
+            "id": 26,
+            "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. ",
+            "price": 109.95,
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category": "men's clothing",
+            "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+            "alt": "Lorem, ipsum dolor sit amet consectet",
+            "rating": {
+                "rate": 3.9,
+                "count": 120
+            }
+        },
+        {
+            "id": 27,
+            "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. ",
+            "price": 109.95,
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category": "men's clothing",
+            "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+            "alt": "Lorem, ipsum dolor sit amet consectet",
+            "rating": {
+                "rate": 3.9,
+                "count": 120
+            }
+        },
+        {
+            "id": 28,
+            "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. ",
+            "price": 109.95,
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category": "men's clothing",
+            "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+            "alt": "Lorem, ipsum dolor sit amet consectet",
+            "rating": {
+                "rate": 3.9,
+                "count": 120
+            }
+        },
+        {
+            "id": 29,
+            "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. ",
+            "price": 109.95,
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category": "men's clothing",
+            "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+            "alt": "Lorem, ipsum dolor sit amet consectet",
+            "rating": {
+                "rate": 3.9,
+                "count": 120
+            }
+        },
+        {
+            "id": 30,
+            "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. ",
+            "price": 109.95,
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category": "men's clothing",
+            "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+            "alt": "Lorem, ipsum dolor sit amet consectet",
+            "rating": {
+                "rate": 3.9,
+                "count": 120
+            }
+        },
+        {
+            "id": 31,
+            "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. ",
+            "price": 109.95,
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category": "men's clothing",
+            "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+            "alt": "Lorem, ipsum dolor sit amet consectet",
+            "rating": {
+                "rate": 3.9,
+                "count": 120
+            }
+        },
+        {
+            "id": 32,
+            "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. ",
+            "price": 109.95,
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category": "men's clothing",
+            "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+            "alt": "Lorem, ipsum dolor sit amet consectet",
+            "rating": {
+                "rate": 3.9,
+                "count": 120
+            }
+        },
+        {
+            "id": 33,
+            "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. ",
+            "price": 109.95,
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category": "men's clothing",
+            "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+            "alt": "Lorem, ipsum dolor sit amet consectet",
+            "rating": {
+                "rate": 3.9,
+                "count": 120
+            }
+        },
+        {
+            "id": 34,
+            "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. ",
+            "price": 109.95,
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category": "men's clothing",
+            "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+            "alt": "Lorem, ipsum dolor sit amet consectet",
+            "rating": {
+                "rate": 3.9,
+                "count": 120
+            }
+        },
+        {
+            "id": 35,
+            "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. ",
+            "price": 1129.2,
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category": "men's clothing",
+            "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+            "alt": "Lorem, ipsum dolor sit amet consectet",
+            "rating": {
+                "rate": 3.9,
+                "count": 120
+            }
+        },
+        {
+            "id": 36,
+            "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. ",
+            "price": 11.54,
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category": "woman's clothing",
+            "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+            "alt": "Lorem, ipsum dolor sit amet consectet",
+            "rating": {
+                "rate": 3.9,
+                "count": 120
+            }
+        },
+        {
+            "id": 37,
+            "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. ",
+            "price": 2.92,
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category": "woman's clothing",
+            "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+            "alt": "Lorem, ipsum dolor sit amet consectet",
+            "rating": {
+                "rate": 3.9,
+                "count": 120
+            }
+        },
+        {
+            "id": 38,
+            "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. ",
+            "price": 4.95,
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category": "woman's clothing",
+            "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+            "alt": "Lorem, ipsum dolor sit amet consectet",
+            "rating": {
+                "rate": 3.9,
+                "count": 120
+            }
+        },
+        {
+            "id": 39,
+            "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. ",
+            "price": 3.95,
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category": "woman's clothing",
+            "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+            "alt": "Lorem, ipsum dolor sit amet consectet",
+            "rating": {
+                "rate": 3.9,
+                "count": 120
+            }
+        },
+        {
+            "id": 40,
+            "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. ",
+            "price": 55,
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category": "vanya lox",
+            "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+            "alt": "Lorem, ipsum dolor sit amet consectet",
+            "rating": {
+                "rate": 3.9,
+                "count": 120
+            }
+        },
+        {
+            "id": 41,
+            "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. ",
+            "price": 44,
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category": "men's clothing",
+            "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+            "alt": "Lorem, ipsum dolor sit amet consectet",
+            "rating": {
+                "rate": 5.0,
+                "count": 120
+            }
+        },
+        {
+            "id": 42,
+            "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. ",
+            "price": 22,
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category": "men's clothing",
+            "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+            "alt": "Lorem, ipsum dolor sit amet consectet",
+            "rating": {
+                "rate": 5.0,
+                "count": 120
+            }
+        },
+        {
+            "id": 43,
+            "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. ",
+            "price": 1,
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category": "men's clothing",
+            "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+            "alt": "Lorem, ipsum dolor sit amet consectet",
+            "rating": {
+                "rate": 5.0,
+                "count": 120
+            }
+        },
+        {
+            "id": 44,
+            "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. ",
+            "price": 5,
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category": "men's clothing",
+            "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+            "alt": "Lorem, ipsum dolor sit amet consectet",
+            "rating": {
+                "rate": 5.0,
+                "count": 120
+            }
+        },
+        {
+            "id": 45,
+            "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. ",
+            "price": 11,
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category": "men's clothing",
+            "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+            "alt": "Lorem, ipsum dolor sit amet consectet",
+            "rating": {
+                "rate": 5.0,
+                "count": 120
+            }
+        },
+        {
+            "id": 46,
+            "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. ",
+            "price": 123,
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category": "men's clothing",
+            "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+            "alt": "Lorem, ipsum dolor sit amet consectet",
+            "rating": {
+                "rate": 4.0,
+                "count": 120
+            }
+        },
+        {
+            "id": 47,
+            "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. ",
+            "price": 321,
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category": "men's clothing",
+            "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+            "alt": "Lorem, ipsum dolor sit amet consectet",
+            "rating": {
+                "rate": 4.4,
+                "count": 120
+            }
+        },
+        {
+            "id": 48,
+            "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. ",
+            "price": 231,
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category": "men's clothing",
+            "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+            "alt": "Lorem, ipsum dolor sit amet consectet",
+            "rating": {
+                "rate": 0.0,
+                "count": 120
+            }
+        },
+        {
+            "id": 49,
+            "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. ",
+            "price": 551,
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category": "men's clothing",
+            "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+            "alt": "Lorem, ipsum dolor sit amet consectet",
+            "rating": {
+                "rate": 2.6,
+                "count": 120
+            }
+        },
+        {
+            "id": 50,
+            "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. ",
+            "price": 542,
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category": "men's clothing",
+            "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+            "alt": "Lorem, ipsum dolor sit amet consectet",
+            "rating": {
+                "rate": 2.4,
+                "count": 120
+            }
+        },
+        {
+            "id": 51,
+            "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. ",
+            "price": 121,
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category": "men's clothing",
+            "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+            "alt": "Lorem, ipsum dolor sit amet consectet",
+            "rating": {
+                "rate": 1.5,
+                "count": 120
+            }
+        },
+        {
+            "id": 52,
+            "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. ",
+            "price": 109.95,
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category": "men's clothing",
+            "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+            "alt": "Lorem, ipsum dolor sit amet consectet",
+            "rating": {
+                "rate": 1.0,
+                "count": 120
+            }
+        },
+        {
+            "id": 53,
+            "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. ",
+            "price": 14,
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category": "men's clothing",
+            "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+            "alt": "Lorem, ipsum dolor sit amet consectet",
+            "rating": {
+                "rate": 1.9,
+                "count": 120
+            }
+        },
+        {
+            "id": 54,
+            "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. ",
+            "price": 109.95,
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category": "men's clothing",
+            "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+            "alt": "Lorem, ipsum dolor sit amet consectet",
+            "rating": {
+                "rate": 2.0,
+                "count": 120
+            }
+        },
+        {
+            "id": 55,
+            "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. ",
+            "price": 1,
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category": "children's clothing",
+            "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+            "alt": "Lorem, ipsum dolor sit amet consectet",
+            "rating": {
+                "rate": 2.1,
+                "count": 120
+            }
+        },
+        {
+            "id": 56,
+            "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. ",
+            "price": 12,
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category": "children's clothing",
+            "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+            "alt": "Lorem, ipsum dolor sit amet consectet",
+            "rating": {
+                "rate": 2.9,
+                "count": 120
+            }
+        },
+        {
+            "id": 57,
+            "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. ",
+            "price": 25,
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category": "children's clothing",
+            "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+            "alt": "Lorem, ipsum dolor sit amet consectet",
+            "rating": {
+                "rate": 4.2,
+                "count": 120
+            }
+        },
+        {
+            "id": 58,
+            "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. ",
+            "price": 300,
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category": "children's clothing",
+            "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+            "alt": "Lorem, ipsum dolor sit amet consectet",
+            "rating": {
+                "rate": 4.3,
+                "count": 120
+            }
+        },
+        {
+            "id": 59,
+            "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. ",
+            "price": 109.95,
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category": "children's clothing",
+            "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+            "alt": "Lorem, ipsum dolor sit amet consectet",
+            "rating": {
+                "rate": 4.5,
+                "count": 120
+            }
+        },
+        {
+            "id": 60,
+            "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. ",
+            "price": 109.95,
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category": "children's clothing",
+            "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+            "alt": "Lorem, ipsum dolor sit amet consectet",
+            "rating": {
+                "rate": 4.9,
+                "count": 120
+            }
+        },
+        {
+            "id": 61,
+            "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. ",
+            "price": 199.95,
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category": "vanya lox",
+            "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+            "alt": "Lorem, ipsum dolor sit amet consectet",
+            "rating": {
+                "rate": 5,
+                "count": 120
+            }
+        }
+    ],
+    "collections": [
+        {
+            "id": 1,
+            "image": "https://images.unsplash.com/photo-1656351502280-a2bd175e91c8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+            "alt": "New Collection",
+            "title": "New Collection"
+        },
+        {
+            "id": 2,
+            "image": "https://images.unsplash.com/photo-1656351502280-a2bd175e91c8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+            "alt": "New Collection",
+            "title": "New Collection"
+        },
+        {
+            "id": 3,
+            "image": "https://images.unsplash.com/photo-1656351502280-a2bd175e91c8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+            "alt": "New Collection",
+            "title": "New Collection"
+        }
+    ],
+    "clothes_tags": [
+        { "id": 1, "category": "Teenagers clothes", "color": "blue" },
+        { "id": 2, "category": "Children's clothing", "color": "orange" },
+        { "id": 3, "category": "Men's Clothing", "color": "green" },
+        { "id": 4, "category": "Woman's Clothing", "color": "red" },
+        { "id": 5, "category": "Vanya Lox", "color": "grey" }
+    ],
+    "settings_tags": [
+        { "id": 1, "sortBy": "Min Price", "color": "red" },
+        { "id": 2, "sortBy": "Max Price", "color": "blue" },
+        { "id": 3, "sortBy": "Rate", "color": "orange" }
+    ]
+}

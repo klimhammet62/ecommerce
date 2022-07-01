@@ -1,0 +1,10 @@
+.categories__tags {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin-top: 40px;
+}
+.categories__tag {
+    cursor: pointer;
+    background-color:#F0F0F0 
+}

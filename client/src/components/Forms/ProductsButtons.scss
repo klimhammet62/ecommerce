@@ -1,0 +1,59 @@
+@import "../../styles/vars.scss";
+
+.button {
+    &__delete {
+        height: $button-size - 15px;
+        width: 50px;
+        @extend %basket-button-styles;
+    }
+    &__delete:hover {
+        cursor: pointer;
+        color: black;
+        color: rgb(118, 110, 110);
+        background-color: #f0f0f0;
+    }
+    &__decrease {
+        height: $button-size - 15px;
+        width: 30px;
+        @extend %basket-button-styles;
+    }
+    &__decrease:hover {
+        cursor: pointer;
+        color: black;
+        color: rgb(118, 110, 110);
+        background-color: #f0f0f0;
+    }
+    &__add {
+        height: $button-size - 15px;
+        width: 30px;
+        @extend %basket-button-styles;
+    }
+    &__add:hover {
+        cursor: pointer;
+        color: black;
+        color: rgb(118, 110, 110);
+        background-color: #f0f0f0;
+    }
+    &__primary {
+        height: $button-size;
+        width: 100px;
+        @extend %basket-button-styles;
+    }
+    &__primary:hover {
+        cursor: pointer;
+        color: black;
+        color: rgb(118, 110, 110);
+        background-color: #F0F0F0;
+        @extend %basket-button-styles;
+    }
+    &__text {
+        text-align: center;
+        font-size: 15px;
+        font-weight: normal;
+    }
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

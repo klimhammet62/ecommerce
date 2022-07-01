@@ -1,0 +1,39 @@
+@import "../../styles/vars.scss";
+.collection {
+    &__sales {
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 15px;
+        letter-spacing: 0em;
+        text-align: left;
+        width: 200px;
+        height: 150px;
+        color: #2967ff;
+        background: #ffffff;
+        border: 1px solid #ff2d87;
+        border-radius: 16px;
+    }
+    &__images {
+        position: relative;
+        width: 200px;
+        height: 160px;
+        cursor: pointer;
+        margin-top: 20px;
+        border-radius: 16px;
+    }
+    &__new {
+        position: absolute;
+        align-items: center;
+        color: black;
+        cursor: pointer;
+        font-weight: 700;
+        font-size: 40px;
+    }
+}
+.side__panel {
+    font-weight: 900;
+    padding-top: 15px;
+    padding-left: 15px;
+    border-left: 1px rgba(175, 175, 175, 0.452) solid;
+}
