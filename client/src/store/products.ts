@@ -17,6 +17,7 @@ export class ProductsStore {
     settings_tags: TSettingsTags[] = [];
     new_collection: TNewCollection[] = [];
     settings_change: number = 0;
+    popup: boolean = false;
 
     setProducts(data: TProduct[]) {
         this.products = data;
@@ -28,12 +29,11 @@ export class ProductsStore {
     setSettingsTags(data: number) {
         this.settings_change = data;
     }
-    responseSettingsTags(data: TSettingsTags[]) {
-        this.settings_tags = data;
-    }
-
     setCollections(data: TNewCollection[]) {
         this.new_collection = data;
+    }
+    responseSettingsTags(data: TSettingsTags[]) {
+        this.settings_tags = data;
     }
 
     loadProducts() {
@@ -60,7 +60,9 @@ export class ProductsStore {
             this.setCollections(res.data);
         });
     }
-
+    togglePopup(data: boolean) {
+        this.popup = data;
+    }
     setClothesFilter(data: string) {
         const sort_terms = data.toLowerCase();
         axios

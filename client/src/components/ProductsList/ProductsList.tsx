@@ -1,24 +1,18 @@
-import { observer } from "mobx-react-lite";
-import { useEffect } from "react";
-import { Categories } from "../MainComponents/Categories/Categories";
+import { CategoriesMain } from "../MainComponents/Categories/CategoriesMain";
 import { ProductComponent } from "../SmallComponents/ProductComponent";
+import { SettingsMain } from "../MainComponents/SettingsMain";
 import "./ProductList.scss";
 
-export const ProductsList: React.FC = observer(() => {
+export const ProductsList: React.FC = () => {
     return (
         <div>
             <div>
                 <div className="functions__wrapper">
-                    <div className="categories__wrapper">
-                        <span>Categories</span>
-                        <Categories />
-                    </div>
-                    <div className="settings__wrapper">
-                        <p className="categories__settings">Settings</p>
-                    </div>
+                    <CategoriesMain />
+                    <SettingsMain />
                 </div>
                 <ProductComponent />
             </div>
         </div>
     );
-});
+};

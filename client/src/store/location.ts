@@ -13,7 +13,6 @@ export class Location {
         axios
             .get("https://api.ipregistry.co/?key=1pe9y7zaqovjoq1o")
             .then((location: any) => {
-                console.log(location);
                 if (location.code) {
                     this.geo = location.data.code.split("_").join(" ");
                 } else {
