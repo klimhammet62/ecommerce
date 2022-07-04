@@ -2,25 +2,27 @@
     &__list {
         padding: 15px;
         list-style: none;
+        color: white;
     }
     &__wrapper {
-        cursor: pointer;
         display: flex;
         justify-content: space-between;
         flex-direction: column;
         align-items: center;
+        height: 60px;
     }
     &__popup {
+        cursor: pointer;
         display: flex;
         justify-content: space-between;
         background: #fff;
-        margin: 20px;
+        margin: 40px;
         border: 1px solid rgba(0, 0, 0, 0.08);
         border-radius: 10px;
         box-shadow: 0 8px 12px #b3b7bd;
         overflow: hidden;
         position: absolute;
-        transition: 0.4s, opacity 0.4s;
+        transition: transform 1.1s ease-out;
         width: 350px;
     }
 }

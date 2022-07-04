@@ -7,7 +7,9 @@ import "./ProductComponent.scss";
 export const ProductComponent = observer((): JSX.Element => {
     return (
         <>
-            {RootStore.products.loading ? (
+            {RootStore.products.isLoading ? (
+                <SkeletonCardComponent />
+            ) : (
                 <div className="products__component">
                     <div className="products__wrapper">
                         {RootStore.products.products.map((product) => (
@@ -32,8 +34,6 @@ export const ProductComponent = observer((): JSX.Element => {
                         ))}
                     </div>
                 </div>
-            ) : (
-                <SkeletonCardComponent />
             )}
         </>
     );

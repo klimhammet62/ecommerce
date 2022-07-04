@@ -12,7 +12,7 @@ export class ProductsStore {
     }
 
     products: TProduct[] = [];
-    loading: boolean = false;
+    isLoading: boolean = true;
     clothes_tags: TClothesTags[] = [];
     settings_tags: TSettingsTags[] = [];
     new_collection: TNewCollection[] = [];
@@ -21,7 +21,6 @@ export class ProductsStore {
 
     setProducts(data: TProduct[]) {
         this.products = data;
-        this.loading = true;
     }
     setClothesTags(data: TClothesTags[]) {
         this.clothes_tags = data;

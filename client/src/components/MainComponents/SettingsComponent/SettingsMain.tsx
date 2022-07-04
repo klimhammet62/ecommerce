@@ -12,15 +12,12 @@ export const SettingsMain: React.FC = observer(() => {
                 <p
                     className="settings__text"
                     onMouseEnter={() => RootStore.products.togglePopup(true)}
-                    /*  onChange={(e) =>
-                                RootStore.products.setSettingsTags(
-                                    e.target.value
-                                )
-                            } */
                 >
                     Settings
                 </p>
-                {RootStore.products.popup && (
+                {RootStore.products.isLoading ? (
+                    <>Skeleton</>
+                ) : (
                     <ul className="settings__popup">
                         {RootStore.products.settings_tags.map((item) => (
                             <li
@@ -29,6 +26,13 @@ export const SettingsMain: React.FC = observer(() => {
                                     backgroundColor: `${item.color}`,
                                 }}
                                 className="settings__list"
+                                onChange={(
+                                    e: React.ChangeEvent<HTMLLIElement>
+                                ) =>
+                                    RootStore.products.setSettingsTags(
+                                        e.target.value
+                                    )
+                                }
                             >
                                 {item.sortBy}
                             </li>

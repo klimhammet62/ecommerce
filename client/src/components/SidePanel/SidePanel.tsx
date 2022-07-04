@@ -8,7 +8,13 @@ export const SidePanel: React.FC = observer(() => {
     return (
         <>
             <BonusComponent />
-            {RootStore.products.loading ? (
+            {RootStore.products.isLoading ? (
+                <>
+                    <SkeletonCollections />
+                    <SkeletonCollections />
+                    <SkeletonCollections />
+                </>
+            ) : (
                 RootStore.products.new_collection.map((obj) => (
                     <NewCollection
                         id={obj.id}
@@ -18,12 +24,6 @@ export const SidePanel: React.FC = observer(() => {
                         alt={obj.alt}
                     />
                 ))
-            ) : (
-                <>
-                    <SkeletonCollections />
-                    <SkeletonCollections />
-                    <SkeletonCollections />
-                </>
             )}
         </>
     );
