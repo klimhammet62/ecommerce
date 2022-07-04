@@ -13,6 +13,7 @@
     }
     &__popup {
         cursor: pointer;
+        position: absolute;
         display: flex;
         justify-content: space-between;
         background: #fff;
@@ -21,8 +22,6 @@
         border-radius: 10px;
         box-shadow: 0 8px 12px #b3b7bd;
         overflow: hidden;
-        position: absolute;
-        transition: transform 1.1s ease-out;
         width: 350px;
     }
 }

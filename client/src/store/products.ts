@@ -13,6 +13,7 @@ export class ProductsStore {
 
     products: TProduct[] = [];
     isLoading: boolean = true;
+    isLoadingProducts: boolean = true;
     clothes_tags: TClothesTags[] = [];
     settings_tags: TSettingsTags[] = [];
     new_collection: TNewCollection[] = [];
@@ -37,38 +38,62 @@ export class ProductsStore {
 
     loadProducts() {
         const url = "/products";
-        axios.get("http://localhost:5000" + url).then((res) => {
-            this.setProducts(res.data);
-        });
+        axios
+            .get("http://localhost:5000" + url)
+            .then((res) => {
+                this.setProducts(res.data);
+            })
+            .finally(() => {
+                this.isLoadingProducts = false;
+            });
     }
     loadClothesTags() {
         const url = "/clothes_tags";
-        axios.get("http://localhost:5000" + url).then((res) => {
-            this.setClothesTags(res.data);
-        });
+        axios
+            .get("http://localhost:5000" + url)
+            .then((res) => {
+                this.setClothesTags(res.data);
+            })
+            .finally(() => {
+                this.isLoading = false;
+            });
     }
     loadSettingsTags() {
         const url = "/settings_tags";
-        axios.get("http://localhost:5000" + url).then((res) => {
-            this.responseSettingsTags(res.data);
-        });
+        axios
+            .get("http://localhost:5000" + url)
+            .then((res) => {
+                this.responseSettingsTags(res.data);
+            })
+            .finally(() => {
+                this.isLoading = false;
+            });
     }
     loadCollections() {
         const url = "/collections";
-        axios.get("http://localhost:5000" + url).then((res) => {
-            this.setCollections(res.data);
-        });
+        axios
+            .get("http://localhost:5000" + url)
+            .then((res) => {
+                this.setCollections(res.data);
+            })
+            .finally(() => {
+                this.isLoading = false;
+            });
     }
     togglePopup(data: boolean) {
         this.popup = data;
     }
     setClothesFilter(data: string) {
         const sort_terms = data.toLowerCase();
+        this.isLoadingProducts = true;
         axios
             .get(`http://localhost:5000/products?category=${sort_terms}`)
             .then((products) => {
                 console.log(products);
                 this.products = products.data;
+            })
+            .finally(() => {
+                this.isLoadingProducts = false;
             })
             .catch((error) => console.log(error));
     }
