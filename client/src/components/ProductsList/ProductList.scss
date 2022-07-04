@@ -2,29 +2,3 @@
     display: flex;
     justify-content: space-evenly;
 }
-.settings {
-    &__list {
-        padding: 15px;
-    }
-    &__wrapper {
-        cursor: pointer;
-        display: flex;
-        justify-content: space-between;
-        flex-direction: column;
-        align-items: center;
-    }
-    &__popup {
-        display: flex;
-        justify-content: space-between;
-        background: #fff;
-        margin: 20px;
-        border: 1px solid rgba(0, 0, 0, 0.08);
-        border-radius: 10px;
-        box-shadow: 0 8px 12px #b3b7bd;
-        overflow: hidden;
-        position: absolute;
-        transform-origin: 90% 10%;
-        transition: 0.4s, opacity 0.4s;
-        width: 350px;
-    }
-}

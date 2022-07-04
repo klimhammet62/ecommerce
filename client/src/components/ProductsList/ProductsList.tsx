@@ -1,6 +1,6 @@
 import { CategoriesMain } from "../MainComponents/Categories/CategoriesMain";
 import { ProductComponent } from "../SmallComponents/ProductComponent";
-import { SettingsMain } from "../MainComponents/SettingsMain";
+import { SettingsMain } from "../MainComponents/SettingsComponent/SettingsMain";
 import "./ProductList.scss";
 
 export const ProductsList: React.FC = () => {
