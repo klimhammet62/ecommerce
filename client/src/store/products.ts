@@ -84,11 +84,13 @@ export class ProductsStore {
     togglePopup(data: boolean) {
         this.popup = data;
     }
-    setClothesFilter(data: string) {
-        const sort_terms = data.toLowerCase();
+    setClothesFilter(category: string) {
+        const sort_terms = category.toLowerCase();
         this.isLoadingProducts = true;
         axios
-            .get(`http://localhost:5000/products?category=${sort_terms}`)
+            .get(
+                `http://localhost:5000/products?category=${sort_terms}&order=asc`
+            )
             .then((products) => {
                 console.log(products);
                 this.products = products.data;

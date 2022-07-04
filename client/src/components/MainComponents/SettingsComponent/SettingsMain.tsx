@@ -15,13 +15,13 @@ export const SettingsMain: React.FC = observer(() => {
                     onMouseEnter={() => RootStore.products.togglePopup(true)}
                 >
                     Settings:{"  "}
-                    <span
+                    {/* <span
                         style={{
                             backgroundColor:
                                 RootStore.products.settings_tags[
                                     RootStore.products.settings_change
                                 ].color,
-                            color: "white",
+                                color: "white"
                         }}
                     >
                         {
@@ -29,7 +29,7 @@ export const SettingsMain: React.FC = observer(() => {
                                 RootStore.products.settings_change
                             ].sortBy
                         }
-                    </span>
+                    </span> */}
                 </p>
                 {RootStore.products.popup && (
                     <ul className="settings__popup">

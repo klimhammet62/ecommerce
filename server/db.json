@@ -822,7 +822,10 @@
     ],
     "settings_tags": [
         { "id": 1, "sortBy": "Min Price", "color": "red" },
-        { "id": 2, "sortBy": "Max Price", "color": "blue" },
-        { "id": 3, "sortBy": "Rate", "color": "orange" }
+        { "id": 2, "sortBy": "Min Price", "color": "red" },
+        { "id": 3, "sortBy": "Max Price", "color": "blue" },
+        { "id": 4, "sortBy": "Max Price", "color": "blue" },
+        { "id": 5, "sortBy": "Rating", "color": "orange" },
+        { "id": 6, "sortBy": "Rating", "color": "orange" }
     ]
 }

@@ -10,21 +10,25 @@
         flex-direction: column;
         align-items: center;
         height: 60px;
-        width: 150px;
+        width: 550px;
         float: left;
     }
     &__popup {
         cursor: pointer;
         position: absolute;
         display: flex;
-        justify-content: space-between;
-        background: #fff;
+        align-items: center;
         margin: 40px;
         border: 1px solid rgba(0, 0, 0, 0.08);
         border-radius: 10px;
         box-shadow: 0 8px 12px #b3b7bd;
         overflow: hidden;
-        width: 350px;
+        width: 550px;
     }
-
+    &__list {
+        display: flex;
+        align-items: center;
+        margin: 10px;
+        height: 60px;
+    }
 }

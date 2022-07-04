@@ -1,0 +1,6 @@
+[ ] - ASC, DESC etc
+[ ] - filtration sort+category
+future:
+[ ] - orders page
+[ ] - history page 
+[ ] - filters and settings adaptive
