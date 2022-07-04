@@ -14,32 +14,41 @@ export const SettingsMain: React.FC = observer(() => {
                     className="settings__text"
                     onMouseEnter={() => RootStore.products.togglePopup(true)}
                 >
-                    Settings
+                    Settings:{"  "}
+                    <span
+                        style={{
+                            backgroundColor:
+                                RootStore.products.settings_tags[
+                                    RootStore.products.settings_change
+                                ].color,
+                            color: "white",
+                        }}
+                    >
+                        {
+                            RootStore.products.settings_tags[
+                                RootStore.products.settings_change
+                            ].sortBy
+                        }
+                    </span>
                 </p>
                 {RootStore.products.popup && (
                     <ul className="settings__popup">
                         {RootStore.products.isLoading ? (
                             <SkeletonSettings />
                         ) : (
-                            RootStore.products.settings_tags.map((item) => (
-                                <>
-                                    <li
-                                        key={item.id}
-                                        style={{
-                                            backgroundColor: `${item.color}`,
-                                        }}
-                                        className="settings__list"
-                                        onChange={(
-                                            e: React.ChangeEvent<HTMLLIElement>
-                                        ) =>
-                                            RootStore.products.setSettingsTags(
-                                                e.target.value
-                                            )
-                                        }
-                                    >
-                                        {item.sortBy}
-                                    </li>
-                                </>
+                            RootStore.products.settings_tags.map((item, i) => (
+                                <li
+                                    key={item.id}
+                                    style={{
+                                        backgroundColor: `${item.color}`,
+                                    }}
+                                    className="settings__list"
+                                    onClick={() =>
+                                        RootStore.products.setSettingsTags(i)
+                                    }
+                                >
+                                    {item.sortBy}
+                                </li>
                             ))
                         )}
                     </ul>

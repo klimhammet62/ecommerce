@@ -27,6 +27,7 @@ export class ProductsStore {
         this.clothes_tags = data;
     }
     setSettingsTags(data: number) {
+        console.log(data);
         this.settings_change = data;
     }
     setCollections(data: TNewCollection[]) {
