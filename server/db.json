@@ -512,7 +512,7 @@
             "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. ",
             "price": 55,
             "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
-            "category": "vanya lox",
+            "category": "woman's clothing",
             "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
             "alt": "Lorem, ipsum dolor sit amet consectet",
             "rating": {
@@ -785,7 +785,7 @@
             "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. ",
             "price": 199.95,
             "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
-            "category": "vanya lox",
+            "category": "woman's clothing",
             "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
             "alt": "Lorem, ipsum dolor sit amet consectet",
             "rating": {
@@ -818,8 +818,7 @@
         { "id": 1, "category": "Teenagers clothes", "color": "blue" },
         { "id": 2, "category": "Children's clothing", "color": "orange" },
         { "id": 3, "category": "Men's Clothing", "color": "green" },
-        { "id": 4, "category": "Woman's Clothing", "color": "red" },
-        { "id": 5, "category": "Vanya Lox", "color": "grey" }
+        { "id": 4, "category": "Woman's Clothing", "color": "red" }
     ],
     "settings_tags": [
         { "id": 1, "sortBy": "Min Price", "color": "red" },

@@ -16,6 +16,7 @@ export class ProductsStore {
     clothes_tags: TClothesTags[] = [];
     settings_tags: TSettingsTags[] = [];
     new_collection: TNewCollection[] = [];
+    settings_change: number = 0;
 
     setProducts(data: TProduct[]) {
         this.products = data;
@@ -24,9 +25,13 @@ export class ProductsStore {
     setClothesTags(data: TClothesTags[]) {
         this.clothes_tags = data;
     }
-    setSettingsTags(data: TSettingsTags[]) {
+    setSettingsTags(data: number) {
+        this.settings_change = data;
+    }
+    responseSettingsTags(data: TSettingsTags[]) {
         this.settings_tags = data;
     }
+
     setCollections(data: TNewCollection[]) {
         this.new_collection = data;
     }
@@ -46,7 +51,7 @@ export class ProductsStore {
     loadSettingsTags() {
         const url = "/settings_tags";
         axios.get("http://localhost:5000" + url).then((res) => {
-            this.setSettingsTags(res.data);
+            this.responseSettingsTags(res.data);
         });
     }
     loadCollections() {

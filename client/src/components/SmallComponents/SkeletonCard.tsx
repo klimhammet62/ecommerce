@@ -10,7 +10,7 @@ export const SkeletonCard = () => {
                 </div>
                 <div className="card__content"></div>
                 <p className="card__title">
-                    <Skeleton width={120} height={13} />
+                    <Skeleton width={120} height={20} />
                 </p>
                 <span className="card__price">
                     <Skeleton width={60} height={10} />

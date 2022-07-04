@@ -1,8 +1,8 @@
 import { SkeletonCardComponent } from "../SmallComponents/SkeletonCardComponent";
 import { ProductsButtons } from "../Forms/ProductsButtons";
-import "./ProductComponent.scss";
 import { RootStore } from "../../store/store";
 import { observer } from "mobx-react-lite";
+import "./ProductComponent.scss";
 
 export const ProductComponent = observer((): JSX.Element => {
     return (

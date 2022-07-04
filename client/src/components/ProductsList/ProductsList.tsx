@@ -8,11 +8,15 @@ export const ProductsList: React.FC = observer(() => {
     return (
         <div>
             <div>
-                <div className="categories">
-                    <span>Categories</span>
-                    <p className={"categories__settings"}>Settings</p>
+                <div className="functions__wrapper">
+                    <div className="categories__wrapper">
+                        <span>Categories</span>
+                        <Categories />
+                    </div>
+                    <div className="settings__wrapper">
+                        <p className="categories__settings">Settings</p>
+                    </div>
                 </div>
-                <Categories />
                 <ProductComponent />
             </div>
         </div>

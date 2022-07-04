@@ -1,10 +1,25 @@
-.categories__tags {
+.functions__wrapper {
     display: flex;
-    justify-content: space-around;
-    list-style: none;
-    margin-top: 40px;
+    justify-content: space-between;
 }
-.categories__tag {
-    cursor: pointer;
-    background-color:#F0F0F0 
+.categories {
+    &__tags {
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        margin: 20px;
+    }
+    &__tag {
+        cursor: pointer;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 20px;
+        color: white;
+    }
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-left: 50px;
+    }
 }
