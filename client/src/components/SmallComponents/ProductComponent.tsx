@@ -7,7 +7,7 @@ import "./ProductComponent.scss";
 export const ProductComponent = observer((): JSX.Element => {
     return (
         <>
-            {RootStore.products.isLoading ? (
+            {RootStore.products.isLoadingProducts ? (
                 <SkeletonCardComponent />
             ) : (
                 <div className="products__component">

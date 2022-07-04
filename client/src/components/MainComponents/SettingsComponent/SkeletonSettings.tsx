@@ -1,12 +1,12 @@
 import ContentLoader from "react-content-loader";
 
-export const SkeletonCategories = () => {
+export const SkeletonSettings = () => {
     return (
         <ContentLoader
             speed={2}
-            width={200}
-            height={50}
-            viewBox="0 0 100 40"
+            width={300}
+            height={20}
+            viewBox="0 0 80 10"
             backgroundColor="#f3f3f3"
             foregroundColor="#ecebeb"
         >
