@@ -1,6 +1,5 @@
-[ ] - ASC, DESC etc
-[ ] - переменная соединяющая 2 переменные (concat) и this.переменная.sort this.cat
-[ ] - filtration sort+category
+[X] - ASC, DESC etc
+[X] - filtration sort+category
 future:
 [ ] - orders page
 [ ] - history page 
