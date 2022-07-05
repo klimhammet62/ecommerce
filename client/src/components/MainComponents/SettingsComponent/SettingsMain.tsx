@@ -15,28 +15,22 @@ export const SettingsMain: React.FC = observer(() => {
                     onMouseEnter={() => RootStore.products.togglePopup(true)}
                 >
                     Settings:{"  "}
-                    {/* <span
+                    <span
                         style={{
                             backgroundColor:
-                                RootStore.products.settings_tags[
-                                    RootStore.products.settings_change
-                                ].color,
-                                color: "white"
+                                RootStore.products.sortObject.color,
+                            color: "white",
                         }}
                     >
-                        {
-                            RootStore.products.settings_tags[
-                                RootStore.products.settings_change
-                            ].sortBy
-                        }
-                    </span> */}
+                        {RootStore.products.sortObject.name}
+                    </span>
                 </p>
                 {RootStore.products.popup && (
                     <ul className="settings__popup">
                         {RootStore.products.isLoading ? (
                             <SkeletonSettings />
                         ) : (
-                            RootStore.products.settings_tags.map((item, i) => (
+                            RootStore.products.settings_tags.map((item) => (
                                 <li
                                     key={item.id}
                                     style={{
@@ -44,10 +38,10 @@ export const SettingsMain: React.FC = observer(() => {
                                     }}
                                     className="settings__list"
                                     onClick={() =>
-                                        RootStore.products.setSettingsTags(i)
+                                        RootStore.products.setSettingsTags(item)
                                     }
                                 >
-                                    {item.sortBy}
+                                    {item.name}
                                 </li>
                             ))
                         )}

@@ -4,4 +4,13 @@
     margin: 0;
     padding: 0;
 }
-
+::-webkit-scrollbar {
+    height: 15px;
+}
+::-webkit-scrollbar-thumb {
+    background: #b3b7bd;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #8b8e91;
+}

@@ -22,13 +22,15 @@
         border: 1px solid rgba(0, 0, 0, 0.08);
         border-radius: 10px;
         box-shadow: 0 8px 12px #b3b7bd;
-        overflow: hidden;
-        width: 550px;
+        overflow-x: auto;
+        overflow-y: hidden;
+        width: 350px;
     }
     &__list {
         display: flex;
         align-items: center;
         margin: 10px;
         height: 60px;
+        border-radius: 20px;
     }
 }
