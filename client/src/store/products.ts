@@ -92,18 +92,17 @@ export class ProductsStore {
         this.concatFunctions();
     }
     concatFunctions() {
-        const sortByFiltering = this.sortObject.sortBy.replace("-", " ");
+        const sortByFiltering = this.sortObject.sortBy.replace("-", "");
         const order = this.sortObject.sortBy.includes("-") ? "asc" : "desc";
         const category = this.category.toLowerCase();
         this.functions = [category, sortByFiltering, order];
-        console.log(this.functions);
         this.fetchFilters();
     }
     fetchFilters() {
         this.isLoadingProducts = true;
         axios
             .get(
-                `http://localhost:5000/products?category=${this.functions[0]}&sortBy=${this.functions[1]}&_order=${this.functions[2]}`
+                `http://localhost:5000/products?category=${this.functions[0]}&_sort=${this.functions[1]}&_order=${this.functions[2]}`
             )
             .then((products) => {
                 console.log(products);
