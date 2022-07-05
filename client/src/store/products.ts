@@ -17,7 +17,6 @@ export class ProductsStore {
     clothes_tags: TClothesTags[] = [];
     settings_tags: TSettingsTags[] = [];
     new_collection: TNewCollection[] = [];
-    settings_change: string = "";
     popup: boolean = false;
     functions: string[] = [];
     category: string = "";

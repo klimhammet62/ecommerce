@@ -1,7 +1,7 @@
 import { RootStore } from "../../../store/store";
 import { observer } from "mobx-react-lite";
-import "./Settings.scss";
 import { SkeletonSettings } from "./SkeletonSettings";
+import "./Settings.scss";
 
 export const SettingsMain: React.FC = observer(() => {
     return (
@@ -21,6 +21,7 @@ export const SettingsMain: React.FC = observer(() => {
                                 RootStore.products.sortObject.color,
                             color: "white",
                         }}
+                        className="settings__names"
                     >
                         {RootStore.products.sortObject.name}
                     </span>

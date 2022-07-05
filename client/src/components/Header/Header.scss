@@ -11,15 +11,6 @@ form {
     position: relative;
 }
 form .header__input {
-    font-size: $font-size;
-    font-weight: 400;
-    line-height: 2px;
-    height: 50px;
-    width: 350px;
-    left: 0;
-    top: 0;
-    border: #F0F4FB 1px solid;
-    border-radius: 33px;
 }
 .header {
     & {
@@ -42,9 +33,16 @@ form .header__input {
         padding-right: 12px;
         padding-left: 12px;
     }
-    &__input {
-        margin-left: 50px;
+    form &__input {
+        margin-left: 60px;
         padding-right: 150px;
+        font-size: $font-size;
+        font-weight: 400;
+        line-height: 2px;
+        height: 50px;
+        width: 350px;
+        border: #f0f4fb 1px solid;
+        border-radius: 33px;
     }
     &__profile {
         margin-left: 20px;
@@ -52,7 +50,7 @@ form .header__input {
 }
 .shopping__button {
     cursor: pointer;
-    border: #F0F4FB 1px solid;
+    border: #f0f4fb 1px solid;
     border-radius: 33px;
     color: white;
     padding: 20px;

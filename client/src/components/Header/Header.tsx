@@ -1,4 +1,4 @@
-import { Input } from "../Forms/Input";
+import { Input } from "./Input";
 import { Logo } from "../SmallComponents/Logo";
 import { Profile } from "../Profile";
 import { PurchaseButton } from "../Forms/PurchaseButton";

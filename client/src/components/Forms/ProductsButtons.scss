@@ -2,7 +2,7 @@
 
 .button {
     &__delete {
-        height: $button-size - 15px;
+        height: $button-size;
         width: 50px;
         @extend %basket-button-styles;
     }
@@ -13,7 +13,7 @@
         background-color: #f0f0f0;
     }
     &__decrease {
-        height: $button-size - 15px;
+        height: $button-size;
         width: 30px;
         @extend %basket-button-styles;
     }
@@ -24,7 +24,7 @@
         background-color: #f0f0f0;
     }
     &__add {
-        height: $button-size - 15px;
+        height: $button-size;
         width: 30px;
         @extend %basket-button-styles;
     }
