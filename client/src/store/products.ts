@@ -2,7 +2,7 @@ import axios from "axios";
 import { makeAutoObservable } from "mobx";
 import { TNewCollection, TProduct } from "../Types/Product";
 import { TClothesTags } from "../Types/ClothesTags";
-import { TSettingsTags } from "../Types/SettingsTags";
+import { TSettingsTags, TSortObject } from "../Types/SettingsTags";
 
 export class ProductsStore {
     public Root: any;
@@ -17,8 +17,11 @@ export class ProductsStore {
     clothes_tags: TClothesTags[] = [];
     settings_tags: TSettingsTags[] = [];
     new_collection: TNewCollection[] = [];
-    settings_change: number = 0;
+    settings_change: string = "";
     popup: boolean = false;
+    functions: string[] = [];
+    category: string = "";
+    sortObject: TSortObject = { id: 0, name: "", sortBy: "", color: "" };
 
     setProducts(data: TProduct[]) {
         this.products = data;
@@ -26,9 +29,9 @@ export class ProductsStore {
     setClothesTags(data: TClothesTags[]) {
         this.clothes_tags = data;
     }
-    setSettingsTags(data: number) {
-        console.log(data);
-        this.settings_change = data;
+    setSettingsTags(sortObject: TSortObject) {
+        this.sortObject = sortObject;
+        this.concatFunctions();
     }
     setCollections(data: TNewCollection[]) {
         this.new_collection = data;
@@ -85,11 +88,22 @@ export class ProductsStore {
         this.popup = data;
     }
     setClothesFilter(category: string) {
-        const sort_terms = category.toLowerCase();
+        this.category = category;
+        this.concatFunctions();
+    }
+    concatFunctions() {
+        const sortByFiltering = this.sortObject.sortBy.replace("-", " ");
+        const order = this.sortObject.sortBy.includes("-") ? "asc" : "desc";
+        const category = this.category.toLowerCase();
+        this.functions = [category, sortByFiltering, order];
+        console.log(this.functions);
+        this.fetchFilters();
+    }
+    fetchFilters() {
         this.isLoadingProducts = true;
         axios
             .get(
-                `http://localhost:5000/products?category=${sort_terms}&order=asc`
+                `http://localhost:5000/products?category=${this.functions[0]}&sortBy=${this.functions[1]}&_order=${this.functions[2]}`
             )
             .then((products) => {
                 console.log(products);
@@ -98,14 +112,6 @@ export class ProductsStore {
             .finally(() => {
                 this.isLoadingProducts = false;
             })
-            .catch((error) => console.log(error));
-    }
-    setSettingsFilter(data: string) {
-        const sort_terms = data.toLowerCase();
-        console.log(sort_terms);
-        axios
-            .get(`http://localhost:5000/products?category=${sort_terms}`)
-            .then((products) => (this.products = products.data))
             .catch((error) => console.log(error));
     }
 }
